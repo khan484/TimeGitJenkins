@@ -79,7 +79,7 @@ public class Time
 	{
 		if (time.length()>8)
 		{
-			throw new NumberFormatException("your time was too long!");
+			throw new NumberFormatException("your time was too long");
 		}
 		return Integer.parseInt(time.substring(3,5));
 	}
