@@ -24,7 +24,9 @@ public class Time
 	public static void main(String[] args) 
 	{
 		int totalSeconds = getTotalSeconds("10:10:10");
-		System.out.println("Total Seconds = " +totalSeconds);	
+		System.out.println("Git Hub Total Seconds = "+totalSeconds);
+		/*int totalSeconds = getTotalSeconds("10:10:10");
+		System.out.println("Total Seconds = " +totalSeconds);*/	
 	}
 	//first commit
 		/*try
